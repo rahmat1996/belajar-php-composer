@@ -1,0 +1,31 @@
+{
+    "name": "rahmat/belajar-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "BelajarPhpComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rahmat",
+            "email": "rahmatbatam14@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rahmat1996/belajar-php-composer-hello"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "rahmat/belajar-php-composer-hello": "2.0.0",
+        "monolog/monolog": "2.2.0"
+    },
+    "scripts": {
+        "server": "php -S localhost:8081",
+        "hello-world": "echo 'Hello World'"
+    }
+}
